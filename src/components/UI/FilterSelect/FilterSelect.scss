@@ -1,0 +1,16 @@
+@import "src/scss/variables";
+
+.filter-select {
+  display: flex;
+  max-width: 170px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+  &__select {
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #D8E2EE;
+    border-radius: 12px;
+  }
+}

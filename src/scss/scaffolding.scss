@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*::before {
+  box-sizing: inherit;
+}
+
+*::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, p {
+  line-height: 130%;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: $rubik;
+  font-size: 14px;
+  line-height: 130%;
+  font-weight: 400;
+  color: $dark;
+  background-color: $white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

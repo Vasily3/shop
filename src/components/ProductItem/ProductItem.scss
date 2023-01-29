@@ -1,0 +1,39 @@
+@import "src/scss/variables";
+@import "src/scss/mixins";
+
+.product-item {
+  cursor: pointer;
+
+  @include hover {
+    background-color: #dfeefa;
+  }
+
+  &__img {
+    max-height: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  &__name {
+    margin: 0 0 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  &__category {
+    margin: 0;
+    font-size: 13px;
+    line-height: 17px;
+    color: #9DA8BA;
+  }
+
+
+  &__views,
+  &__start-date,
+  &__end-date {
+    @include mobile {
+      display: none;
+    }
+  }
+}

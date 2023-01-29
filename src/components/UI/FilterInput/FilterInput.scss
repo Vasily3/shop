@@ -1,0 +1,38 @@
+@import "src/scss/variables";
+
+.filter-input {
+  position: relative;
+  padding: 10px 14px 10px 32px;
+  max-width: 320px;
+  width: 100%;
+  border: 1px solid #D8E2EE;
+  border-radius: 18px;
+  background: transparent;
+
+  input {
+    border: none;
+    color: $dark;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: $dark;
+
+    &::placeholder {
+      color: #B6C2D2;
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-50%);
+    background-image: url("./../../../assets/img/magnifier.svg");
+    background-size: 16px;
+    background-repeat: no-repeat;
+  }
+}
