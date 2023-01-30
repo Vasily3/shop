@@ -43,7 +43,7 @@ const ProductPage: FC = () => {
                         }
                     </div>
                     {product?.logo_url &&
-                        <img className='product-page__logo' src={product?.logo_url} alt='discount'/>
+                        <img className='product-page__logo' src={product?.logo_url} alt='logo'/>
                     }
                 </div>
 
